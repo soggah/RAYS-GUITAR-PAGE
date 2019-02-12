@@ -1,0 +1,25 @@
+header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:white;
+      flex-wrap: wrap;
+    }
+
+#logo{
+    width: 60vw;
+    margin-top: 15px;
+    width: 100%;
+    position: relative;
+    }
+body{
+      background-color: whitesmoke;
+      font-family: 'Lato', sans-serif;
+    }    
+
+    
+            
