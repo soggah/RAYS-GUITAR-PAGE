@@ -1,11 +1,19 @@
+body{
+  height:100%; 
+  width:100% ;
+  margin:0px;
+  padding:0px;   
+}
 .mother{
   display:flex; 
   background-color:wheat; 
-  height:100%; 
+  height:90%; 
   width:100% ;
-  padding:100px; 
   flex-direction:column; 
   align-items:center;
+  justify-content: space-evenly;
+  padding-top:20px; 
+
   }
   .logo{ 
   display:flex;   
@@ -69,6 +77,7 @@
           max-width: 1000px;
           width: 100%;
           margin: 0 auto;
+          justify-content: space-between;
       }       
           .icon {
             display: flex;
@@ -103,19 +112,67 @@
       justify-content: space-around;
       flex-direction: row;
       padding:50px;
+      height:10cm;
+      width:20cm;
     }
   #bass{
       background-color:rgba(0, 0, 0, 0.555);
       display:flex;
-      flex-direction: column;
       justify-content: space-evenly;
       align-items: center;
-      
+      border-radius:5px; 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: calc(100%  / 3);
+      margin: 10px;
+      border: 1px solid #000;
+      background-image:url("solo.jpg");  
+      background-repeat:no-repeat;
+      background-size:110%;  
   } 
   footer{
+    display:flex; 
   background-color: rgba(255, 140, 0, 0.842);
-  width:90% ;
+  width:100% ;
   display:flex;  
-  flex-direction: row; 
-  }      
+  padding-bottom:0px;
+  margin-bottom:0px; 
+ justify-content: flex-end;
+ flex-direction:column; 
+   
+  } 
+  span {
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+    padding-right:5px;
+  }
+  ol{
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #444;
+    padding-right:5px;  
+  }
+#ic{
+  display:flex;
+  height:50px ;
+  width:80px ;
+} 
+.level{
+  background-color:rgba(245, 222, 179, 0.801);
+  background-size:40px; 
+}  
+.btn{
+  max-width: 150px;
+        width: 100%;
+        height: 30px;
+        margin: 15px 0;
+        border: 0;
+        background-color: #f1c40f; 
+}   
   
