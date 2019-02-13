@@ -1,20 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+<head>
 <title>Yamah product landing.com</title>
-<link rel="stylesheet" href="plp.css">   
-<head id="header">
-  <div class="logo">
+<link rel="stylesheet" href="plp.css"> 
+</head>
+<body>
+<nav id="nav-bar"> <nav id="nav-bar">
+  <nav class="logo">
     <img id="header-img" src="white.jpg" />
-  </div>
-
-  <nav id="nav-bar">
-    <ul>
+      <ul id="link">
       <li><a class="nav-link" href="#features">Features</a></li>
       <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
       <li><a class="nav-link" href="#pricing">Pricing</a></li>
     </ul>
   </nav>
-</head>
-<body>
+  <div class="mother">
+  <section id="hero">
+  <h2>Lets connect</h2>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    <input name="email" id="email" type="email" placeholder="Enter your email address" required/>
+    <input id="submit" type="submit" value="Get Started" class="btn"></input>
+  </form>
+</section>
+<div class="container">
+  <section id="features">
+    <div class="grid">
+      <div class="icon">
+        <i class="fa fa-3x fa-fire"></i>
+      </div>
+      <div class="desc">
+        <h2>Premium Materials</h2>
+        <p>Our guitars are made from the best materials. This will increase the longevity of your purchase.</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon">
+        <i class="fa fa-3x fa-truck"></i>
+      </div>
+      <div class="desc">
+        <h2>Fast Shipping</h2>
+        <p>We make sure you recieve your guitar as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+      </div>
+    </div>
+    <div class="grid">
+      <div class="icon">
+        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+      </div>
+      <div class="desc">
+        <h2>Quality Assurance</h2>
+        <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <iframe id="video" height="315" src="https://www.youtube.com/watch?v=hxQPGMkru68" frameborder="0" allowfullscreen></iframe>
+  </section>
+  <section id="pricing">
+    <div id="bass">
+      <div class="level">
+       ACOUSTIC GUITAR
+      </div>
+      <h2>$600</h2>
+        <li>Wooden</li>
+        <li>Multi color</li>
+        <li>Extra strings</li>
+      <button class="btn">Select</button>
+    </div>
+    <div id="bass">
+      <div class="level">
+      BASS GUITAR
+      </div>
+      <h2>$900</h2>
+      <ol>
+        <li>Multi color</li>
+        <li>Free case</li>
+        <li>Free jerk</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+    <div id="bass">
+      <div class="level">
+        ELECTRIC GUITAR
+      </div>
+      <h2>$1200</h2>
+      <ol>
+        <li>Plays similar to a solo</li>
+        <li>Great for Jazz Bands</li>
+        <li>Free case</li>
+      </ol>
+      <button class="btn">Select</button>
+    </div>
+  </section>
+
+</div>
+<footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2016, Original Trombones</span>
+  </footer>
 </body>
-</html>
